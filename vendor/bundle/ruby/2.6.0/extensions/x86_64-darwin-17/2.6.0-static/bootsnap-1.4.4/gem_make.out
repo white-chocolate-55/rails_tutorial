@@ -1,5 +1,9 @@
 current directory: /Users/kuritakazuki/work_space/hello_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+<<<<<<< HEAD
 /Users/kuritakazuki/.rbenv/versions/2.6.2/bin/ruby -I /Users/kuritakazuki/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190429-69730-ndjwem.rb extconf.rb
+=======
+/Users/kuritakazuki/.rbenv/versions/2.6.2/bin/ruby -I /Users/kuritakazuki/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190429-52169-tg7j8d.rb extconf.rb
+>>>>>>> origin/master
 creating Makefile
 
 current directory: /Users/kuritakazuki/work_space/hello_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
@@ -12,4 +16,8 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/kuritakazuki/work_space/hello_app/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190429-69730-sf5kaq/bootsnap
+=======
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190429-52169-jgs1j6/bootsnap
+>>>>>>> origin/master
