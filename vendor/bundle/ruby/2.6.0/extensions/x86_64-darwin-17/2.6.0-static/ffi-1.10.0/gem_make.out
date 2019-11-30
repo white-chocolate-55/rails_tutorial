@@ -1,5 +1,9 @@
 current directory: /Users/kuritakazuki/work_space/hello_app/vendor/bundle/ruby/2.6.0/gems/ffi-1.10.0/ext/ffi_c
+<<<<<<< HEAD
 /Users/kuritakazuki/.rbenv/versions/2.6.2/bin/ruby -I /Users/kuritakazuki/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190429-69730-1rmpxpq.rb extconf.rb
+=======
+/Users/kuritakazuki/.rbenv/versions/2.6.2/bin/ruby -I /Users/kuritakazuki/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190429-52169-1gl5hkc.rb extconf.rb
+>>>>>>> origin/master
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... yes
 checking for ffi_call() in -lffi... yes
@@ -136,4 +140,8 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20190429-69730-1manp28
+=======
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20190429-52169-1gry2c8
+>>>>>>> origin/master
