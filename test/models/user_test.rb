@@ -56,4 +56,8 @@ class UserTest < ActiveSupport::TestCase
   	assert_not @user.valid?
   end
 
+  test "記憶トークンがnilの場合、authenticated? メソッドがfalseを返す" do
+    assert_not @user.authenticated?('')
+  end
+
 end
